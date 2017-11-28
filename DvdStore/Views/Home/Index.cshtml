@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="jumbotron">
+        <h1>DVD Store</h1>
+        <p class="lead">We bring joy!</p>
+        <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Who we are</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vel mi vel enim elementum venenatis eget ut erat.
+                Duis condimentum volutpat malesuada. Nulla facilisi. Sed volutpat,
+                tellus et tincidunt commodo, elit dui placerat sapien,
+                a congue tellus ante vel nisi.
+            </p>
+            <p>@Html.ActionLink("Learn more", "About", "Home", null, new { @class = "btn btn-default" })</p>
+            
+        </div>
+        <div class="col-md-4">
+            <h2>Movies Collection</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vel mi vel enim elementum venenatis eget ut erat.
+                Duis condimentum volutpat malesuada. Nulla facilisi. Sed volutpat,
+                tellus et tincidunt commodo, elit dui placerat sapien,
+                a congue tellus ante vel nisi.</p>
+            <p>@Html.ActionLink("Movies", "Index", "Movies", null, new { @class = "btn btn-default" })</p>
+        </div>
+        <div class="col-md-4">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vel mi vel enim elementum venenatis eget ut erat.
+                Duis condimentum volutpat malesuada. Nulla facilisi. Sed volutpat,
+                tellus et tincidunt commodo, elit dui placerat sapien,
+                a congue tellus ante vel nisi.</p>
+        </div>
+    </div>

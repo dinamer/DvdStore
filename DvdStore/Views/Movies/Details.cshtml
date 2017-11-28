@@ -1,0 +1,23 @@
+﻿@model DvdStore.Models.Movie
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>@Model.Name</h2>
+
+<div id="MovieDetails">
+    <ul>
+        <li>Genre: @Model.Genre.Name</li>
+        <li>Release date: @Model.ReleaseDate.ToLongDateString()</li>
+        <li>Date added: @Model.DateAdded.ToLongDateString()</li>
+        <li>Number in stock: @Model.NumberInStock</li>
+
+
+
+    </ul>
+</div>
+
+

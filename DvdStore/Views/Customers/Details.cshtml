@@ -1,0 +1,25 @@
+﻿@model DvdStore.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+
+<h2>@Model.Name</h2>
+
+<div id="CustomerInfo">
+
+    <ul>
+        <li> Membership type: @Model.MembershipType.Name</li>
+        @if (Model.BirthDate.HasValue)
+        {
+            <li>Birthdate: @Model.BirthDate.Value.ToShortDateString()</li>
+        }
+
+    </ul>   
+</div>
+
