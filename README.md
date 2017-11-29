@@ -24,4 +24,4 @@ CSS
 Bootstrap
 
 
-The application was created after completing Udemy's "The complete ASP.NET MVC course" by Mosh Hamedani.ptio
+The application was created after completing Udemy's "The complete ASP.NET MVC course" by Mosh Hamedani.
