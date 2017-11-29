@@ -1,7 +1,9 @@
 # DvdStore
 
 Description:
-Simple DVD rental app. Implemented features:
+Simple DVD rental app. 
+
+Implemented features:
 Add, edit, delete a movie/customer (authorized personnel only)
 Register/view rental
 View list of movies and customers (with paging)
